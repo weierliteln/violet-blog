@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}", // 包含你的源代码文件
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#3490dc",
+        secondary: "#ffed4a",
+        danger: "#e3342f",
+      },
+    },
   },
   plugins: [],
 }

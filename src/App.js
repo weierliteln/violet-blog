@@ -1,16 +1,10 @@
 import './App.css';
+import { CustomLayout } from './views/layout/Layout'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-        < div className="bg-gray-200 w-60">
-          11
-        </div>
-      </header>
+      <CustomLayout />
     </div>
   );
 }
